@@ -1,0 +1,46 @@
+{
+	"interactionModel": {
+		"languageModel": {
+			"invocationName" : "random word",
+			"intents": [
+				{
+					"name": "AMAZON.CancelIntent",
+					"sample": []
+				},
+				{
+					"name": "AMAZON.HelpIntent",
+					"samples" : []
+				},
+				{
+					"name": "AMAZON.StopIntent",
+					"samples": []
+
+				},
+				{
+					"name": "getRandomWord",
+					"samples": [
+						"tell me a random word",
+						"get a random word",
+						"random word",
+						"give me a random word",
+						"can you give me a random word",
+						"return a random word"
+					]
+				},
+				{
+					"name": "wordOfTheDay",
+					"samples": [
+						"tell me the word of the day",
+						"what's the word of the day",
+						"what is the word of the day",
+						"word of the day",
+						"what is today's word",
+						"what's today's word",
+						"get today's word"
+					]
+				}
+			],
+			"types": []
+		}
+	}
+}
